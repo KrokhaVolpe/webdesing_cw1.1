@@ -74,13 +74,24 @@ p {
 
 
     .div_flex{
-        display: flex;
+        display: block;
         background-color:FireBrick
     }
 
-    .img{
+
+   .div_flex  p {
+    text-align:center;
+    line-height: 40px;
+    font-size: 24px;
+    background-color:FireBrick;
+    color:white;
+    padding: 0;
+    margin: auto;
+    }
+
+    .div_flex .img{
         width: 150px;
-        height: 300px;
+        float:left;
         margin-right: 5px;
 
     }
