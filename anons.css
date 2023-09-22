@@ -1,4 +1,7 @@
-
+body {
+    max-width:1330px;
+    margin: 0 auto;
+}
 
 h1{
     font-family:Garamond;
