@@ -75,8 +75,10 @@ p {
     margin: 0 0 30px 0;
     }
 
-
-    .div_flex{
+p > img {
+        padding: 20px;
+}
+.div_flex {
         display: block;
         background-color:FireBrick
     }
@@ -90,6 +92,7 @@ p {
     color:white;
     padding: 0;
     margin: auto;
+       width:75%;
     }
 
     .div_flex .img{
@@ -99,10 +102,7 @@ p {
 
     }
 
-    .imgg{
-        padding: 20px;
-    }
-    
+
     a:hover{
         color: yellow;
     }
